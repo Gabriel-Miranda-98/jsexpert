@@ -1,0 +1,19 @@
+nvm install version (pode ser o nome da versão ou o número)
+nvm install --lts
+nvm list
+nvm use version
+nvm alias default version
+
+### definir a versão do node para o projeto
+
+criar um arquivo .nvmrc na raiz do projeto com a versão do node desejada
+
+
+#linux
+node -v > .nvmrc -> criar o arquivo .nvmrc com a versão do node atual
+
+
+
+#projeto node
+
+npm init -y => cria o package.json com as configurações padrão e você pode definir o engine do node com a versão desejada
